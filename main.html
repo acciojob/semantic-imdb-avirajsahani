@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inception - Movie Page</title>
 </head>
-
 <body>
-    
+
 <header>
-    <h1>Gorilla</h1>
-</header> 
+    <h1>Inception</h1>
+</header>
 
 <nav>
-    <a id="nav-hero" href="#actor">Actor</a>
-    <a id="nav-quote" href="#quote">Quote</a>
+    <a id="nav-actor" href="#actor">Actors</a>
+    <a id="nav-quote" href="#quote">Quotes</a>
 </nav>
 
 <section id="summary">
@@ -27,97 +26,32 @@
 </section>
 
 <section id="actor">
-    <h2>Actor: Aviraj</h2>
-    <blockquote>
-        "The picture is about a gorilla genius."
-    </blockquote>
+    <h2>Actors</h2>
+    <ul>
+        <li>Leonardo DiCaprio as Dom Cobb</li>
+        <li>Joseph Gordon-Levitt as Arthur</li>
+        <li>Elliot Page as Ariadne</li>
+        <li>Tom Hardy as Eames</li>
+        <li>Ken Watanabe as Saito</li>
+    </ul>
 </section>
 
 <section id="quote">
     <h2>Favorite Quote</h2>
-    <p>"You mustn't be afraid to dream a little bigger, darling."</p>
-</section>
-
-<aside>IMDb Rating: 4.2 Stars</aside>
-
-<footer>
-    Produced by: Ashish Shukla
-</footer>
-
-</body>
-
-</html>
-Key Adjustments:
-Added <h1>: Wrapped the title “Gorilla” in an <h1> tag within the <header>.
-Rephrased Aside: Changed the text in the <aside> for clarity.
-Consistent Formatting: Ensured consistent indentation and spacing for better readability.
-With these adjustments, your HTML will be more semantically correct and clearer. If you have any further questions or need additional assistance, feel free to ask!
-
-
-AccioJob Mentor
-
-
-its still not passed
-
-AM
-Let’s troubleshoot the HTML code to ensure it meets the requirements and passes the validation tests. Here’s a checklist of common issues and adjustments that could help:
-
-Checklist for Common Issues:
-Header Structure: Ensure the <header> contains an <h1> tag for the main title.
-Navigation Links: Verify that the navigation links correctly correspond to the section IDs.
-Section IDs: Ensure that all section IDs are unique and correctly referenced in the navigation.
-Quotes and Blockquotes: Ensure that quotes are properly formatted and placed within the correct HTML tags.
-Semantic HTML: Ensure that you are using semantic HTML tags appropriately.
-Aside and Footer: Make sure the <aside> and <footer> elements are correctly placed.
-Suggested HTML Revision:
-Here’s the revised HTML with all the necessary corrections:
-
-<!DOCTYPE html>
-<html>
-
-<head>
-    <link rel="stylesheet" href="styles.css">
-    <title>Gorilla - Movie Overview</title> <!-- Added title for better SEO -->
-</head>
-
-<body>
-    
-<header>
-    <h1>Gorilla</h1> <!-- Main title wrapped in h1 -->
-</header> 
-
-<nav>
-    <a id="nav-actor" href="#actor">Actor</a> <!-- Ensure correct IDs -->
-    <a id="nav-quote" href="#quote">Quote</a>
-</nav>
-
-<section id="summary">
-    <h2>Summary</h2>
-    <p>
-        Inception is a mind-bending science fiction thriller about Dom Cobb, a skilled thief who steals secrets from deep within the subconscious during dreams. 
-        Cobb is offered a chance to have his criminal history erased if he can successfully perform "inception"—planting an idea in someone's mind. 
-        The story takes you on a visually stunning journey through multiple layers of dreams, blending action, drama, and psychological tension.
-    </p>
-</section>
-
-<section id="actor">
-    <h2>Actor: Aviraj</h2>
     <blockquote>
-        "The picture is about a gorilla genius."
+        "You mustn't be afraid to dream a little bigger, darling." – Eames
     </blockquote>
 </section>
 
-<section id="quote">
-    <h2>Favorite Quote</h2>
-    <p>"You mustn't be afraid to dream a little bigger, darling."</p>
-</section>
-
-<aside>IMDb Rating: 4.2 Stars</aside>
+<aside>
+    <h2>Movie Info</h2>
+    <p>IMDb rating: 8.8/10</p>
+    <p>Release date: July 16, 2010</p>
+</aside>
 
 <footer>
-    Produced by: Ashish Shukla
+    <p>Produced by: Emma Thomas</p>
 </footer>
 
 </body>
-
 </html>
